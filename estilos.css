@@ -1,0 +1,268 @@
+/*Parte para celulares y tablets*/
+@media only screen and (max-width: 600px) {
+
+
+  
+  *  { 
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  }
+  #nombre {
+    font-size: 15px;
+    margin-top:15px;
+    margin-bottom: 30px;
+  }
+  h1 {
+    font-size: 10px;
+  
+  }
+
+  #imagenn {
+    align-items: center;
+    border: 1px solid grey ;
+    margin-left: 5px;
+    margin-top: 0px;
+    width: 120px;
+    height: 120px;
+  
+  }
+  
+  .informacion ul li {
+    position: relative;
+    margin-left: 15px;
+    margin-top: 7px;
+    font-size: 15px;
+
+    color: #fff;
+  
+  }
+ 
+  
+
+body{
+  background: lightblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 5vh;
+}
+
+.izquierda {
+  position: center;
+  background: rgb(25, 56, 61);
+  padding: 10px;
+}
+
+.derecha {
+  position: relative;
+  background:#fff;
+  padding: 10px;
+
+}
+#nombre {
+  align-items: center;
+  float: none;
+  padding: 0px;
+  font-family: 'Roboto', sans-serif;
+  color: #fff;
+
+}
+
+.acerca {
+
+  margin-bottom: 100px;
+  margin-left: 5px;
+  }
+  
+  .titulo2 {
+    color: rgb(63, 100, 119);
+    font-family: 'Roboto', sans-serif;
+    margin-top: 5px;
+    margin-bottom: 5px ;
+  
+  }
+  
+  .acerca .caja {
+    display: flex;
+    margin: 10px 0;
+    flex-direction: column;
+  }
+  .acerca .caja .anio_compania {
+   min-width: 60px;
+  }
+  
+  .acerca .caja .anio_compania h5 {
+    text-transform: uppercase;
+    color: #848c90;
+    font-weight: 300;
+  }
+  .acerca p {
+    margin-top: 0px;
+    margin-bottom: 30px;
+  }
+  
+}
+
+
+
+
+
+
+
+
+
+/* Parte para computadoras*/
+@media only screen and (min-width: 601px) {
+ *  { 
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background: lightblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+
+}
+
+#imagenn {
+  width: 150px;
+  height: 150px;
+}
+
+h1 {
+  font-size: 25px;
+
+}
+
+.informacion ul li {
+  position:relative;
+  margin-left: 20px;
+  margin-top: 5px;
+
+}
+
+
+  .izquierda {
+    position: relative;
+    background: rgb(26, 56, 61);
+    padding: 10px;
+  }
+  
+  .derecha {
+    position: relative;
+    background:#fff;
+    padding: 10px;
+
+  }
+  #imagenn {
+    align-items: center;
+    border: 1px solid grey ;
+    margin-left: 50px;
+    margin-top: 20px;
+  
+  }
+  #nombre {
+    align-items: center;
+    float: none;
+    padding: 15px;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+  
+  }
+  
+.acerca {
+
+  margin-bottom: 100px;
+  margin-left: 15px;
+  }
+  
+  .titulo2 {
+    color: rgb(63, 100, 119);
+    font-family: 'Roboto', sans-serif;
+    margin-top: 15px;
+    margin-bottom: 15px ;
+  
+  }
+  
+  .acerca .caja {
+    display: flex;
+    margin: 20px 0;
+    flex-direction: row;
+  }
+  .acerca .caja .anio_compania {
+   min-width: 150px;
+  }
+  
+  .acerca .caja .anio_compania h5 {
+    text-transform: uppercase;
+    color: #848c90;
+    font-weight: 300;
+  }
+  .acerca p {
+    margin-top: 5px;
+    margin-bottom: 50px;
+  }
+  
+
+
+ 
+   
+ 
+}
+
+
+
+
+.contenedor {
+  
+
+
+  position: relative;
+  width: 95%;
+  max-width: 1000px;
+  min-height: 1000px;
+  background: #fff;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  box-shadow: 0 35px 55px rgb(0,0,0,0.1);
+  margin: 10px;
+
+  
+
+}
+
+.anio_compania h5 {
+  color:black;
+}
+
+.informacion.estudios {
+  margin-top:90px;
+}
+
+
+.informacion {
+  color: #fff;
+
+}
+
+.informacion.idiomas {
+
+  margin-top:70px;
+}
+
+h4 {
+  font-size: 15px;
+}
+
+h5 {
+  color:grey;
+  
+}
+
