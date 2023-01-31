@@ -1,13 +1,69 @@
+
+.contenedor {
+  
+
+
+  position: relative;
+  width: 95%;
+  max-width: 1000px;
+  min-height: 1000px;
+  background: #fff;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  box-shadow: 0 35px 55px rgb(0,0,0,0.1);
+  margin: 10px;
+  font-family: 'Itim', cursive;
+
+  
+
+}
+
+.anio_compania h5 {
+  color:black;
+}
+
+.informacion.estudios {
+  margin-top:90px;
+}
+
+
+.informacion {
+  color: #fff;
+
+}
+
+.informacion.idiomas {
+
+  margin-top:70px;
+}
+
+h4 {
+  font-size: 15px;
+}
+
+h5 {
+  color:grey;
+  
+}
+.textoSiempre {
+  color: rgba(133, 127, 127, 0.603); 
+}
+
+.icono:hover {
+
+  cursor:pointer;
+}
+
+
+
 /*Parte para celulares y tablets*/
 @media only screen and (max-width: 600px) {
 
-
-  
   *  { 
     margin:0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Itim', cursive;
   }
   #nombre {
     font-size: 15px;
@@ -33,7 +89,7 @@
     position: relative;
     margin-left: 15px;
     margin-top: 7px;
-    font-size: 15px;
+    font-size: 13px;
 
     color: #fff;
   
@@ -51,22 +107,21 @@ body{
 
 .izquierda {
   position: center;
-  background: rgb(25, 56, 61);
-  padding: 10px;
+  background: rgb(22, 71, 94);
+  padding: 7px;
 }
 
 .derecha {
   position: relative;
   background:#fff;
-  padding: 10px;
+  padding: 9px;
 
 }
 #nombre {
   align-items: center;
   float: none;
   padding: 0px;
-  font-family: 'Roboto', sans-serif;
-  color: #fff;
+    color: #fff;
 
 }
 
@@ -134,9 +189,9 @@ body{
 
   #mostrar2 {
     display: none;
-    position: center;
-    margin: 10px;
-    margin-left: 10px;
+    position: relative;
+    margin-top: 10px;
+    font-size: 10px;
   }
 
   #mostrar3 {
@@ -146,16 +201,7 @@ body{
     margin-left: 10px;
   }
 
-
-
-
-  
 }
-
-
-
-
-
 
 
 
@@ -166,7 +212,6 @@ body{
   margin:0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
 }
 
 body {
@@ -191,14 +236,14 @@ h1 {
 .informacion ul li {
   position:relative;
   margin-left: 20px;
-  margin-top: 5px;
+  margin-top: 15px;
 
 }
 
 
   .izquierda {
     position: relative;
-    background: rgb(26, 56, 61);
+    background: rgb(22, 71, 94);
     padding: 10px;
   }
   
@@ -218,8 +263,9 @@ h1 {
   #nombre {
     align-items: center;
     float: none;
-    padding: 15px;
-    font-family: 'Roboto', sans-serif;
+    margin-top: 15px;
+    margin-left: 15px;
+  
     color: #fff;
   
   }
@@ -232,8 +278,7 @@ h1 {
   
   .titulo2 {
     color: rgb(63, 100, 119);
-    font-family: 'Roboto', sans-serif;
-    margin-top: 15px;
+    margin-top: 55px;
     margin-bottom: 15px ;
   
   }
@@ -298,64 +343,12 @@ h1 {
     margin: 10px;
     margin-left: 70px;
   }
+
+  #fechaNac {
+    margin-left: 70px;
+    margin-bottom: 55px;
+    
+  }
   
  
 }
-
-
-
-
-.contenedor {
-  
-
-
-  position: relative;
-  width: 95%;
-  max-width: 1000px;
-  min-height: 1000px;
-  background: #fff;
-  display: grid;
-  grid-template-columns: 1fr 2fr;
-  box-shadow: 0 35px 55px rgb(0,0,0,0.1);
-  margin: 10px;
-
-  
-
-}
-
-.anio_compania h5 {
-  color:black;
-}
-
-.informacion.estudios {
-  margin-top:90px;
-}
-
-
-.informacion {
-  color: #fff;
-
-}
-
-.informacion.idiomas {
-
-  margin-top:70px;
-}
-
-h4 {
-  font-size: 15px;
-}
-
-h5 {
-  color:grey;
-  
-}
-.textoSiempre {
-  color: rgba(133, 127, 127, 0.603); 
-}
-
-.icono:hover {
-
-  cursor:pointer;
-}
-
