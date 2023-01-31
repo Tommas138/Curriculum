@@ -102,6 +102,53 @@ body{
     margin-top: 0px;
     margin-bottom: 30px;
   }
+
+  .informacion ul {
+    position: relative;
+  }
+
+  .informacion ul li {
+    list-style: none;
+    position: relative;
+    cursor: pointer;
+    margin: 10px 0;
+  }
+
+  .informacion ul li .icono {
+    display: inline-block;
+    color: #03a9f4;
+    width: fit-content;
+    padding: 1rem;
+
+
+
+
+  }
+
+  #mostrar {
+    display: none;
+    position: center;
+    margin: 10px;
+    margin-left: 10px;
+  }
+
+  #mostrar2 {
+    display: none;
+    position: center;
+    margin: 10px;
+    margin-left: 10px;
+  }
+
+  #mostrar3 {
+    display: none;
+    position: relative;
+    margin: 10px;
+    margin-left: 10px;
+  }
+
+
+
+
   
 }
 
@@ -209,11 +256,49 @@ h1 {
     margin-top: 5px;
     margin-bottom: 50px;
   }
+  .informacion ul {
+    position: relative;
+  }
+
+  .informacion ul li {
+    list-style: none;
+    position: relative;
+    cursor: pointer;
+    margin: 10px 0;
+  }
+
+  .informacion ul li .icono {
+    display: inline-block;
+    color: #03a9f4;
+    width: 30px;
+    margin-top: 10px;
+    
+
+
+  }
+
   
+  #mostrar {
+    display: none;
+    position: center;
+    margin: 10px;
+    margin-left: 70px;
+  }
 
+  #mostrar2 {
+    display: none;
+    position: center;
+    margin: 10px;
+    margin-left: 70px;
+  }
 
- 
-   
+  #mostrar3 {
+    display: none;
+    position: relative;
+    margin: 10px;
+    margin-left: 70px;
+  }
+  
  
 }
 
@@ -264,5 +349,13 @@ h4 {
 h5 {
   color:grey;
   
+}
+.textoSiempre {
+  color: rgba(133, 127, 127, 0.603); 
+}
+
+.icono:hover {
+
+  cursor:pointer;
 }
 
