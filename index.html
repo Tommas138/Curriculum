@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculum</title>
+       <link rel="stylesheet" href="/estilos.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+    
+        <div class="contenedor">
+
+            <!--Parte izquierda de la pantalla-->
+            <div class="izquierda">
+                <div class="imagen">
+                    <img src ="/45.jpg" alt="ImagenPerfil" id="imagenn">
+    
+                </div>
+                <div id="nombre">
+                    <h1 id="nombre"> Yvonne Phillips</h1>
+                </div>
+                <div id="nombre">
+                    <p id="fechaNac">19/07/1998</p>
+                </div>
+                <hr>
+                <div class="informacion">
+                    <h2 class="titulo">Informacion de contacto</h2>
+                    <ul>
+                        <li>
+                            <span id="button-text" class="icono" type="button" ><i class= "fa fa-phone" aria-hidden="true"></i></span>
+                            <span class="textoSiempre">Click en el icono para mostrar</span>
+                            <div id="mostrar">
+                                <span class="texto">(775) 856-8727</span>
+                            </div>
+                        </li>
+                        <li>
+                            <span id="button-text2" class="icono" type="button" ><i class="fa fa-envelope-o" aria-hidden="true"></i></span>
+                            <span class="textoSiempre">Click en el icono para mostrar</span>
+                            <div id="mostrar2">
+                                <span class="texto">yvonne.phillips@gmail.com</span>
+                            </div>
+                        </li>
+                        <li>
+                            <span id="button-text3" class="icono" type="button"><i class="fa fa-globe" aria-hidden="true"></i></span>
+                            <span class="textoSiempre">Click en el icono para mostrar </span>
+                            <div id="mostrar3">
+                                <span class="texto">5926 Hickory Creek Dr</span>
+                            </div>
+                           
+                        </li>
+                    </ul>
+                </div>
+                <hr>
+
+                <div class="informacion estudios">
+                    <h2 class="titulo">Estudios</h2>
+                    <ul>
+                        <li>
+                            <h5>2004-2010</h5>
+                            <h4>Estudios primarios</h4>
+                            <h4>Escuela Nº143</h4>
+                        </li>
+                        <li>
+                            <h5>2011-2016</h5>
+                            <h4>Estudios Secundarios</h4>
+                            <h4>Escuela Provincial Nº6</h4>
+                        </li>
+                    </ul>
+                </div>
+
+                <hr>
+
+                <div class="informacion idiomas">
+                    <h2 class="titulo">Idiomas</h2>
+                    <ul>
+                        <li>
+                            <h4>Ingles avanzado</h4>
+                        </li>
+                        <li>
+                            <h4>Frances básico</h4>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!--Parte derecha de la pantalla-->
+            <div class="derecha">
+                <div class="acerca">
+                    <h2 class="titulo2">Acerca de mi</h2>
+                    <p>Motivada para empezar a trabajar y aprender nuevas cosas, exigente, creativa, responsable. Mucha experiencia en atencion al cliente en general y buen trato con la gente.
+                        Mucha disponibilidad, atenta a oportunidades de trabajo en todos los puestos.
+                    </p>
+                    <hr>
+                    </div>
+
+
+                    <div class="acerca">
+                        <h2 class="titulo2">Experiencia</h2>
+                        <div class="caja">
+                            <div class="anio_compania">
+                                <h5>2017-2018</h5>
+                                <h5>Kiosco el sol</h5>
+                            </div>
+                            <div class="texto">
+                                <h4>Ayudante general</h4>
+                                <p>Atencion al cliente, cajero, ayuda a atender el kiosco en general.</p>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="caja">
+                            <div class="anio_compania">
+                                <h5>2018-2021</h5>
+                                <h5>Carrefour</h5>
+                            </div>
+                            <div class="texto">
+                                <h4>Ayudante general</h4>
+                                <p>Cajero, atencion al cliente, limpieza, descarga de mercaderia.</p>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="caja">
+                            <div class="anio_compania">
+                                <h5>2021-2023</h5>
+                                <h5>Banco de la </h5>
+                                <h5>Nación Argentina</h5>
+                            </div>
+                            <div class="texto">
+                                <h4>Atencion al cliente</h4>
+                                <p>Atencion al cliente para miembros del banco, gestion de cuentas, etc.</p>
+                            </div>
+                        </div>
+                        
+
+                        <div>
+                            <h2 id="diploma">Diplomas</h2>
+                            <span class="boton" onclick="mostrar3();" type="button"> <i class="fa fa-files-o" aria-hidden="true"></i></span>
+                            <span class="click">Mostrar</span>
+                            <div id="diploma1">
+                                <img src="Diploma.jpg" alt="Titulo secundario" id="diplomaa">
+                                <span class="boton" onclick="ocultar3();" type="button"> <i class= "fa fa-files-o aria-hidden="true"></i></span>
+                                <span class="click">Ocultar</span>
+                            </div>
+                        </div>
+                            
+                    </div>
+                </div>
+            </div>
+</div>
+
+<script src="/javascript.js">
+</script>
+</body>
+</html>
