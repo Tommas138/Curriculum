@@ -23,3 +23,13 @@ function display3() {
     document.getElementById("mostrar3").style.display = 'block';
 }
 
+
+function mostrar3() {
+
+    document.getElementById('diploma1').style.display = 'block';
+}
+
+function ocultar3() {
+
+    document.getElementById('diploma1').style.display = 'none';
+}

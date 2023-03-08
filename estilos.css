@@ -54,6 +54,10 @@ h5 {
   cursor:pointer;
 }
 
+#diploma1 {
+  display: none;
+}
+
 
 
 /*Parte para celulares y tablets*/
@@ -155,7 +159,7 @@ body{
   }
   .acerca p {
     margin-top: 0px;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
   }
 
   .informacion ul {
@@ -199,6 +203,19 @@ body{
     position: relative;
     margin: 10px;
     margin-left: 10px;
+  }
+
+  #diploma {
+    color: rgb(63, 100, 119);
+  }
+
+  #diplomaa {
+    width: 250px;
+    height: 250px;
+  }
+  .informacion {
+    margin-top: 15px;
+    margin-bottom: 45px;
   }
 
 }
@@ -299,7 +316,7 @@ h1 {
   }
   .acerca p {
     margin-top: 5px;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
   }
   .informacion ul {
     position: relative;
@@ -349,6 +366,18 @@ h1 {
     margin-bottom: 55px;
     
   }
+  #diploma {
+    color: rgb(63, 100, 119);
+  }
+
+  #diplomaa {
+    width: 500px;
+    height: 500px;
+  }
   
+.informacion {
+  margin-top: 30px;
+  margin-bottom: 70px;
+}
  
 }
